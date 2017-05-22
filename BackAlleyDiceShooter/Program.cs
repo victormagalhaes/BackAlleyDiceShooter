@@ -503,10 +503,31 @@ namespace BackAlleyDiceShooter
 		// It's a TV Show! There must be a showman. Who's better than Neil Patrick Harris for this job?
 		public static void GetNeilPresentation()
 		{
-			Console.WriteLine("Hi! I'm Neil Patrick Harris!");
-			Console.WriteLine("You probably know me by my role in 'How I met your mother'!");
-			Console.WriteLine("But I'm also a great magician!");
-			Console.WriteLine("I'll make your money multiply here at my new TV show 'Easy Bet'!\n");
+			Console.WriteLine("===============================================================================");
+			Console.WriteLine("                                     |                                         ");
+			Console.WriteLine("                 $$$                 |                                         ");
+			Console.WriteLine("                 $$$                 |        Hi, I'm Neil Patrick Harris      ");
+			Console.WriteLine("              $$$$$$$$$              |        You probably know me by my       ");
+			Console.WriteLine("           $$$$  $$$  $$$$           |           role in the TV show           ");
+			Console.WriteLine("         $$$     $$$     $$$         |         'How I Met Your Mother'         ");
+			Console.WriteLine("         $$$     $$$      $$         |                                         ");
+			Console.WriteLine("         $$$     $$$                 |                                         ");
+			Console.WriteLine("           $$$$  $$$                 |       But I'm also a great magician!    ");
+			Console.WriteLine("             $$$$$$$                 |       I'll make your money multiply     ");
+			Console.WriteLine("                $$$$$$$              |         here at my new TV show...       ");
+			Console.WriteLine("                 $$$  $$$$           |                                         ");
+			Console.WriteLine("                 $$$     $$$         |                                         ");
+			Console.WriteLine("         $$      $$$     $$$         |     Trust me, everything will be fine   ");
+			Console.WriteLine("         $$$     $$$     $$$         |                                         ");
+			Console.WriteLine("           $$$$  $$$  $$$$           |                                         ");
+			Console.WriteLine("              $$$$$$$$$              |                   ;)                    ");
+			Console.WriteLine("                 $$$                 |                                         ");
+			Console.WriteLine("                 $$$                 |          by Neil Patrick Harris         ");
+			Console.WriteLine("                                     |                                         ");
+			Console.WriteLine("===============================================================================");
+			Console.WriteLine("                          Press any key to start.                              ");
+			Console.ReadKey();
+			Console.Clear();
 		}
 
 		// Splash screen

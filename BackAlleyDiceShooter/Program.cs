@@ -326,7 +326,7 @@ namespace BackAlleyDiceShooter
 				return bet * odds;
 			}
 
-			return bet * odds * (-1);
+			return -bet * (-1);
 		}
 
 		// Call another function that returns if it's triples or not but return odds.
@@ -336,7 +336,7 @@ namespace BackAlleyDiceShooter
 			{
 				return bet * 30;
 			}
-			return bet * (-30);
+			return -bet;
 		}
 
 		// Call function that returns if there is 2 doubles or not and return odds
@@ -346,7 +346,7 @@ namespace BackAlleyDiceShooter
 			{
 				return bet * 10;
 			}
-			return bet * (-10);
+			return -bet;
 		}
 
 		// Same. Check if there's triples and return odds
@@ -357,7 +357,7 @@ namespace BackAlleyDiceShooter
 				return bet * 180;
 			}
 
-			return bet * (-180);
+			return -bet;
 		}
 
 		// Return odds if is even number
@@ -371,7 +371,7 @@ namespace BackAlleyDiceShooter
 				return bet;
 			}
 
-			return bet * (-1);
+			return -bet;
 		}
 
 		// return odds if is odd number.
@@ -385,7 +385,7 @@ namespace BackAlleyDiceShooter
 				return bet;
 			}
 
-			return bet * (-1);
+			return -bet;
 		}
 
 		// Check if sum is between 2 numbers, used in big and small bets. Exception if triples. Return odds.
@@ -398,7 +398,7 @@ namespace BackAlleyDiceShooter
 				return bet;
 			}
 
-			return bet * (-1);
+			return -bet;
 		}
 
 		// True or false. Is there 2 doubles? Exception of Triples.
